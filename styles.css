@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
     background: #F0F8FF;
     color: #8B0000;
 }
 h1, h2 {
-    font-family: Bebas Neue, serif;
+    font-family: Bebas Neue;
     color: #FF4500;
 }
 a {
