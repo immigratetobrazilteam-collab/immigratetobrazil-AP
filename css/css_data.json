@@ -1,0 +1,93 @@
+{
+    "persona": {
+        "label": "Equatorial Pioneer",
+        "tone": "Bold, tropical, exploratory",
+        "visual_intensity": "medium",
+        "risk_tolerance": "expressive"
+    },
+    "tokens": {
+        "colors": {
+            "primary": "#d69e2e",
+            "secondary": "#b7791f",
+            "accent": "#ecc94b",
+            "bg": "#fffff0",
+            "text": "#975a16",
+            "hover": "#975a16",
+            "active": "#744210",
+            "focus": "#d69e2e",
+            "success": "#48bb78",
+            "error": "#e53e3e",
+            "warning": "#faf089",
+            "info": "#4299e1",
+            "neutral": "#faf089",
+            "link": "#b7791f",
+            "border": "#f6e05a",
+            "surface": "#fefcbf",
+            "gradient_bg": "linear-gradient(to bottom, #fffff0, #faf089)"
+        },
+        "typography": {
+            "primary_font": "'Roboto Slab', system-ui, sans-serif",
+            "base_size": "17px",
+            "line_height": "1.65",
+            "heading_sizes": [
+                "2.8rem",
+                "2.2rem",
+                "1.9rem",
+                "1.6rem",
+                "1.3rem",
+                "1.1rem"
+            ]
+        },
+        "spacing": {
+            "xs": "4px",
+            "s": "8px",
+            "m": "16px",
+            "l": "32px",
+            "xl": "48px",
+            "xxl": "64px"
+        },
+        "borders": {
+            "radius": "10px"
+        },
+        "shadows": {
+            "low": "0 5px 10px rgba(151,90,22,0.1)",
+            "medium": "0 12px 24px rgba(151,90,22,0.15)"
+        },
+        "motion": {
+            "timing": "0.45s cubic-bezier(0.25, 0.1, 0.25, 1)"
+        },
+        "breakpoints": {
+            "tablet": "780px",
+            "desktop": "1050px"
+        },
+        "animations": {
+            "duration_base": 0.5,
+            "ease_default": "easeInOutCubic",
+            "intensity_mod": 1.0,
+            "risk_ease": "back.out(1.5)",
+            "mobile_mod": 0.75
+        }
+    },
+    "page_customizations": {
+        "home": {
+            "hero_bg": "var(--color-surface)",
+            "cta_color": "var(--color-accent)",
+            "section_border": "var(--color-border)"
+        },
+        "about": {
+            "intro_text": "var(--color-text)",
+            "section_border": "var(--color-border)",
+            "hero_bg": "var(--color-neutral)"
+        },
+        "services": {
+            "overview_bg": "var(--color-surface)",
+            "item_accent": "var(--color-accent)",
+            "list_color": "var(--color-info)"
+        },
+        "contact": {
+            "form_bg": "var(--color-surface)",
+            "submit_btn": "var(--color-primary)",
+            "input_border": "var(--color-border)"
+        }
+    }
+}
