@@ -1,1067 +1,664 @@
-ap/
+AP/
 ├─ index.html
-│  ├─ ap-index-form-immigrate-to-amap
-│  ├─ ap-index-list--immigration-assistance-for-adventure-seekers-in-amap-
-│  ├─ ap-index-list-immigration-legal-services-in-brazil
-│  ├─ ap-index-section-why-amap
-│  ├─ ap-index-list-how-the-process-works
-│  ├─ ap-index-section--frequently-asked-questions-about-living-in-amap-
-│  ├─ contact
+│  ├─ ap-index-section--map
+│  ├─ ap-index-section-frequently-asked-questions-about-living-in-
+│  ├─ ap-index-contact
 
-├─ renouncing-citizenship.html
-│  ├─ ap-renouncingcitizenship-form-renounce-brazilian-citizenship
-│  ├─ ap-renouncingcitizenship-list-quick-facts
-│  ├─ ap-renouncingcitizenship-list-common-challenges-applicants-face
-│  ├─ ap-renouncingcitizenship-list-how-we-solve-these-challenges
-│  ├─ ap-renouncingcitizenship-section-renunciation-overview
-│  ├─ ap-renouncingcitizenship-form-who-is-this-for
-│  ├─ ap-renouncingcitizenship-list-required-documents
-│  ├─ ap-renouncingcitizenship-list-process
-│  ├─ ap-renouncingcitizenship-section-timelines-deadlines
-│  ├─ ap-renouncingcitizenship-section-fees-costs
-│  ├─ ap-renouncingcitizenship-list-risks-common-mistakes
-│  ├─ ap-renouncingcitizenship-section-diy-vs-professional-assistance
-│  ├─ ap-renouncingcitizenship-section-amap-specific-context
-│  ├─ ap-renouncingcitizenship-section-what-our-clients-say
-│  ├─ ap-renouncingcitizenship-section-frequently-asked-questions
-│  ├─ ap-renouncingcitizenship-section-international-support
-│  ├─ application-form
-│  ├─ ap-renouncingcitizenship-list-our-credentials
-│  ├─ ap-renouncingcitizenship-list-related-services
-│  ├─ ap-renouncingcitizenship-section-youre-in-good-hands
-│  ├─ ap-renouncingcitizenship-section-21
+├─ footer.html
+│  ├─ main-footer
 
-├─ provisional.html
-│  ├─ ap-provisional-form-provisional-naturalisation-in-brazil-for-minors
-│  ├─ ap-provisional-list-quick-facts
-│  ├─ ap-provisional-list-common-challenges-applicants-face
-│  ├─ ap-provisional-list-how-we-solve-these-challenges
-│  ├─ ap-provisional-section-naturalisation-overview
-│  ├─ ap-provisional-form-who-is-this-naturalisation-for
-│  ├─ ap-provisional-list-required-documents
-│  ├─ ap-provisional-list-application-process
-│  ├─ ap-provisional-section-timelines-deadlines
-│  ├─ ap-provisional-section-fees-costs
-│  ├─ ap-provisional-list-risks-common-mistakes
-│  ├─ ap-provisional-section-diy-vs-professional-assistance
-│  ├─ ap-provisional-section-amap-specific-context
-│  ├─ ap-provisional-section-what-our-clients-say
-│  ├─ ap-provisional-section-frequently-asked-questions
-│  ├─ ap-provisional-section-international-support
-│  ├─ application-form
-│  ├─ ap-provisional-list-our-credentials
-│  ├─ ap-provisional-list-related-services
-│  ├─ ap-provisional-section-youre-in-good-hands
-│  ├─ ap-provisional-section-21
+├─ header.html
+│  ├─ main-header
 
-├─ special.html
-│  ├─ ap-special-form-special-naturalisation-in-brazil-for-particular-cases
-│  ├─ ap-special-list-quick-facts
-│  ├─ ap-special-list-common-challenges-applicants-face
-│  ├─ ap-special-list-how-we-solve-these-challenges
-│  ├─ ap-special-section-naturalisation-overview
-│  ├─ ap-special-form-who-is-this-naturalisation-for
-│  ├─ ap-special-list-required-documents
-│  ├─ ap-special-list-application-process
-│  ├─ ap-special-section-timelines-deadlines
-│  ├─ ap-special-section-fees-costs
-│  ├─ ap-special-list-risks-common-mistakes
-│  ├─ ap-special-section-diy-vs-professional-assistance
-│  ├─ ap-special-section-amap-specific-context
-│  ├─ ap-special-section-what-our-clients-say
-│  ├─ ap-special-section-frequently-asked-questions
-│  ├─ ap-special-section-international-support
-│  ├─ application-form
-│  ├─ ap-special-list-our-credentials
-│  ├─ ap-special-list-related-services
-│  ├─ ap-special-section-youre-in-good-hands
-│  ├─ ap-special-section-21
-
-├─ ordinary.html
-│  ├─ ap-ordinary-form-obtain-brazilian-citizenship-through-ordinary-naturalisation
-│  ├─ ap-ordinary-list-quick-facts
-│  ├─ ap-ordinary-list-common-challenges-applicants-face
-│  ├─ ap-ordinary-list-how-we-solve-these-challenges
-│  ├─ ap-ordinary-section-naturalisation-overview
-│  ├─ ap-ordinary-form-who-is-this-naturalisation-for
-│  ├─ ap-ordinary-list-required-documents
-│  ├─ ap-ordinary-list-application-process
-│  ├─ ap-ordinary-section-timelines-deadlines
-│  ├─ ap-ordinary-section-fees-costs
-│  ├─ ap-ordinary-list-risks-common-mistakes
-│  ├─ ap-ordinary-section-diy-vs-professional-assistance
-│  ├─ ap-ordinary-section-amap-specific-context
-│  ├─ ap-ordinary-section-what-our-clients-say
-│  ├─ ap-ordinary-section-frequently-asked-questions
-│  ├─ ap-ordinary-section-international-support
-│  ├─ application-form
-│  ├─ ap-ordinary-list-our-credentials
-│  ├─ ap-ordinary-list-related-services
-│  ├─ ap-ordinary-section-youre-in-good-hands
-│  ├─ ap-ordinary-section-21
-
-├─ extraordinary.html
-│  ├─ ap-extraordinary-form-extraordinary-naturalisation-in-brazil-for-contributions
-│  ├─ ap-extraordinary-list-quick-facts
-│  ├─ ap-extraordinary-list-common-challenges-applicants-face
-│  ├─ ap-extraordinary-list-how-we-solve-these-challenges
-│  ├─ ap-extraordinary-section-naturalisation-overview
-│  ├─ ap-extraordinary-form-who-is-this-naturalisation-for
-│  ├─ ap-extraordinary-list-required-documents
-│  ├─ ap-extraordinary-list-application-process
-│  ├─ ap-extraordinary-section-timelines-deadlines
-│  ├─ ap-extraordinary-section-fees-costs
-│  ├─ ap-extraordinary-list-risks-common-mistakes
-│  ├─ ap-extraordinary-section-diy-vs-professional-assistance
-│  ├─ ap-extraordinary-section-amap-specific-context
-│  ├─ ap-extraordinary-section-what-our-clients-say
-│  ├─ ap-extraordinary-section-frequently-asked-questions
-│  ├─ ap-extraordinary-section-international-support
-│  ├─ application-form
-│  ├─ ap-extraordinary-list-our-credentials
-│  ├─ ap-extraordinary-list-related-services
-│  ├─ ap-extraordinary-section-youre-in-good-hands
-│  ├─ ap-extraordinary-section-21
-
-├─ reacquisition-citizenship.html
-│  ├─ ap-reacquisitioncitizenship-form-reacquire-brazilian-citizenship
-│  ├─ ap-reacquisitioncitizenship-list-quick-facts
-│  ├─ ap-reacquisitioncitizenship-list-common-challenges-applicants-face
-│  ├─ ap-reacquisitioncitizenship-list-how-we-solve-these-challenges
-│  ├─ ap-reacquisitioncitizenship-section-reacquisition-overview
-│  ├─ ap-reacquisitioncitizenship-form-who-is-this-for
-│  ├─ ap-reacquisitioncitizenship-list-required-documents
-│  ├─ ap-reacquisitioncitizenship-list-process
-│  ├─ ap-reacquisitioncitizenship-section-timelines-deadlines
-│  ├─ ap-reacquisitioncitizenship-section-fees-costs
-│  ├─ ap-reacquisitioncitizenship-list-risks-common-mistakes
-│  ├─ ap-reacquisitioncitizenship-section-diy-vs-professional-assistance
-│  ├─ ap-reacquisitioncitizenship-section-amap-specific-context
-│  ├─ ap-reacquisitioncitizenship-section-what-our-clients-say
-│  ├─ ap-reacquisitioncitizenship-section-frequently-asked-questions
-│  ├─ ap-reacquisitioncitizenship-section-international-support
-│  ├─ application-form
-│  ├─ ap-reacquisitioncitizenship-list-our-credentials
-│  ├─ ap-reacquisitioncitizenship-list-related-services
-│  ├─ ap-reacquisitioncitizenship-section-youre-in-good-hands
-│  ├─ ap-reacquisitioncitizenship-section-21
-
-├─ scientific-research.html
-│  ├─ ap-scientificresearch-form-conduct-scientific-research-with-residency-in-brazil
-│  ├─ ap-scientificresearch-list-quick-facts
-│  ├─ ap-scientificresearch-list-common-challenges-applicants-face
-│  ├─ ap-scientificresearch-list-how-we-solve-these-challenges
-│  ├─ ap-scientificresearch-section-residency-overview
-│  ├─ ap-scientificresearch-form-who-is-this-residency-for
-│  ├─ ap-scientificresearch-list-required-documents
-│  ├─ ap-scientificresearch-list-application-process
-│  ├─ ap-scientificresearch-section-timelines-deadlines
-│  ├─ ap-scientificresearch-section-fees-costs
-│  ├─ ap-scientificresearch-list-risks-common-mistakes
-│  ├─ ap-scientificresearch-section-diy-vs-professional-assistance
-│  ├─ ap-scientificresearch-section-amap-specific-context
-│  ├─ ap-scientificresearch-section-what-our-clients-say
-│  ├─ ap-scientificresearch-section-frequently-asked-questions
-│  ├─ ap-scientificresearch-section-international-support
-│  ├─ application-form
-│  ├─ ap-scientificresearch-list-our-credentials
-│  ├─ ap-scientificresearch-list-related-services
-│  ├─ ap-scientificresearch-section-youre-in-good-hands
-│  ├─ ap-scientificresearch-section-21
-
-├─ study.html
-│  ├─ ap-study-form-study-in-brazil-with-study-residency
-│  ├─ ap-study-list-quick-facts
-│  ├─ ap-study-list-common-challenges-applicants-face
-│  ├─ ap-study-list-how-we-solve-these-challenges
-│  ├─ ap-study-section-residency-overview
-│  ├─ ap-study-form-who-is-this-residency-for
-│  ├─ ap-study-list-required-documents
-│  ├─ ap-study-list-application-process
-│  ├─ ap-study-section-timelines-deadlines
-│  ├─ ap-study-section-fees-costs
-│  ├─ ap-study-list-risks-common-mistakes
-│  ├─ ap-study-section-diy-vs-professional-assistance
-│  ├─ ap-study-section-amap-specific-context
-│  ├─ ap-study-section-what-our-clients-say
-│  ├─ ap-study-section-frequently-asked-questions
-│  ├─ ap-study-section-international-support
-│  ├─ application-form
-│  ├─ ap-study-list-our-credentials
-│  ├─ ap-study-list-related-services
-│  ├─ ap-study-section-youre-in-good-hands
-│  ├─ ap-study-section-21
-
-├─ educational-exchange.html
-│  ├─ ap-educationalexchange-form-participate-in-educational-exchanges-with-residency-in-brazil
-│  ├─ ap-educationalexchange-list-quick-facts
-│  ├─ ap-educationalexchange-list-common-challenges-applicants-face
-│  ├─ ap-educationalexchange-list-how-we-solve-these-challenges
-│  ├─ ap-educationalexchange-section-residency-overview
-│  ├─ ap-educationalexchange-form-who-is-this-residency-for
-│  ├─ ap-educationalexchange-list-required-documents
-│  ├─ ap-educationalexchange-list-application-process
-│  ├─ ap-educationalexchange-section-timelines-deadlines
-│  ├─ ap-educationalexchange-section-fees-costs
-│  ├─ ap-educationalexchange-list-risks-common-mistakes
-│  ├─ ap-educationalexchange-section-diy-vs-professional-assistance
-│  ├─ ap-educationalexchange-section-amap-specific-context
-│  ├─ ap-educationalexchange-section-what-our-clients-say
-│  ├─ ap-educationalexchange-section-frequently-asked-questions
-│  ├─ ap-educationalexchange-section-international-support
-│  ├─ application-form
-│  ├─ ap-educationalexchange-list-our-credentials
-│  ├─ ap-educationalexchange-list-related-services
-│  ├─ ap-educationalexchange-section-youre-in-good-hands
-│  ├─ ap-educationalexchange-section-21
-
-├─ humanitarian.html
-│  ├─ ap-humanitarian-form-humanitarian-residency-in-brazil-for-protection
-│  ├─ ap-humanitarian-list-quick-facts
-│  ├─ ap-humanitarian-list-common-challenges-applicants-face
-│  ├─ ap-humanitarian-list-how-we-solve-these-challenges
-│  ├─ ap-humanitarian-section-residency-overview
-│  ├─ ap-humanitarian-form-who-is-this-residency-for
-│  ├─ ap-humanitarian-list-required-documents
-│  ├─ ap-humanitarian-list-application-process
-│  ├─ ap-humanitarian-section-timelines-deadlines
-│  ├─ ap-humanitarian-section-fees-costs
-│  ├─ ap-humanitarian-list-risks-common-mistakes
-│  ├─ ap-humanitarian-section-diy-vs-professional-assistance
-│  ├─ ap-humanitarian-section-amap-specific-context
-│  ├─ ap-humanitarian-section-what-our-clients-say
-│  ├─ ap-humanitarian-section-frequently-asked-questions
-│  ├─ ap-humanitarian-section-international-support
-│  ├─ application-form
-│  ├─ ap-humanitarian-list-our-credentials
-│  ├─ ap-humanitarian-list-related-services
-│  ├─ ap-humanitarian-section-youre-in-good-hands
-│  ├─ ap-humanitarian-section-21
-
-├─ digital-nomad.html
-│  ├─ ap-digitalnomad-form-digital-nomad-residency-in-brazil
-│  ├─ ap-digitalnomad-list-quick-facts
-│  ├─ ap-digitalnomad-list-common-challenges-applicants-face
-│  ├─ ap-digitalnomad-list-how-we-solve-these-challenges
-│  ├─ ap-digitalnomad-section-residency-overview
-│  ├─ ap-digitalnomad-form-who-is-this-residency-for
-│  ├─ ap-digitalnomad-list-required-documents
-│  ├─ ap-digitalnomad-list-application-process
-│  ├─ ap-digitalnomad-section-timelines-deadlines
-│  ├─ ap-digitalnomad-section-fees-costs
-│  ├─ ap-digitalnomad-list-risks-common-mistakes
-│  ├─ ap-digitalnomad-section-diy-vs-professional-assistance
-│  ├─ ap-digitalnomad-section-amap-specific-context
-│  ├─ ap-digitalnomad-section-what-our-clients-say
-│  ├─ ap-digitalnomad-section-frequently-asked-questions
-│  ├─ ap-digitalnomad-section-international-support
-│  ├─ application-form
-│  ├─ ap-digitalnomad-list-our-credentials
-│  ├─ ap-digitalnomad-list-related-services
-│  ├─ ap-digitalnomad-section-youre-in-good-hands
-│  ├─ ap-digitalnomad-section-21
-
-├─ family-reunion.html
-│  ├─ ap-familyreunion-form-reunite-with-family-in-brazil-with-family-reunion-residency
-│  ├─ ap-familyreunion-list-quick-facts
-│  ├─ ap-familyreunion-list-common-challenges-applicants-face
-│  ├─ ap-familyreunion-list-how-we-solve-these-challenges
-│  ├─ ap-familyreunion-section-residency-overview
-│  ├─ ap-familyreunion-form-who-is-this-residency-for
-│  ├─ ap-familyreunion-list-required-documents
-│  ├─ ap-familyreunion-list-application-process
-│  ├─ ap-familyreunion-section-timelines-deadlines
-│  ├─ ap-familyreunion-section-fees-costs
-│  ├─ ap-familyreunion-list-risks-common-mistakes
-│  ├─ ap-familyreunion-section-diy-vs-professional-assistance
-│  ├─ ap-familyreunion-section-amap-specific-context
-│  ├─ ap-familyreunion-section-what-our-clients-say
-│  ├─ ap-familyreunion-section-frequently-asked-questions
-│  ├─ ap-familyreunion-section-international-support
-│  ├─ application-form
-│  ├─ ap-familyreunion-list-our-credentials
-│  ├─ ap-familyreunion-list-related-services
-│  ├─ ap-familyreunion-section-youre-in-good-hands
-│  ├─ ap-familyreunion-section-21
-
-├─ mercosul.html
-│  ├─ ap-mercosul-form-residency-for-mercosul-citizens-in-brazil
-│  ├─ ap-mercosul-list-quick-facts
-│  ├─ ap-mercosul-list-common-challenges-applicants-face
-│  ├─ ap-mercosul-list-how-we-solve-these-challenges
-│  ├─ ap-mercosul-section-residency-overview
-│  ├─ ap-mercosul-form-who-is-this-residency-for
-│  ├─ ap-mercosul-list-required-documents
-│  ├─ ap-mercosul-list-application-process
-│  ├─ ap-mercosul-section-timelines-deadlines
-│  ├─ ap-mercosul-section-fees-costs
-│  ├─ ap-mercosul-list-risks-common-mistakes
-│  ├─ ap-mercosul-section-diy-vs-professional-assistance
-│  ├─ ap-mercosul-section-amap-specific-context
-│  ├─ ap-mercosul-section-what-our-clients-say
-│  ├─ ap-mercosul-section-frequently-asked-questions
-│  ├─ ap-mercosul-section-international-support
-│  ├─ application-form
-│  ├─ ap-mercosul-list-our-credentials
-│  ├─ ap-mercosul-list-related-services
-│  ├─ ap-mercosul-section-youre-in-good-hands
-│  ├─ ap-mercosul-section-21
-
-├─ retiree.html
-│  ├─ ap-retiree-form-retire-in-brazil-with-retiree-residency
-│  ├─ ap-retiree-list-quick-facts
-│  ├─ ap-retiree-list-common-challenges-applicants-face
-│  ├─ ap-retiree-list-how-we-solve-these-challenges
-│  ├─ ap-retiree-section-residency-overview
-│  ├─ ap-retiree-form-who-is-this-residency-for
-│  ├─ ap-retiree-list-required-documents
-│  ├─ ap-retiree-list-application-process
-│  ├─ ap-retiree-section-timelines-deadlines
-│  ├─ ap-retiree-section-fees-costs
-│  ├─ ap-retiree-list-risks-common-mistakes
-│  ├─ ap-retiree-section-diy-vs-professional-assistance
-│  ├─ ap-retiree-section-amap-specific-context
-│  ├─ ap-retiree-section-what-our-clients-say
-│  ├─ ap-retiree-section-frequently-asked-questions
-│  ├─ ap-retiree-section-international-support
-│  ├─ application-form
-│  ├─ ap-retiree-list-our-credentials
-│  ├─ ap-retiree-list-related-services
-│  ├─ ap-retiree-section-youre-in-good-hands
-│  ├─ ap-retiree-section-21
-
-├─ volunteer.html
-│  ├─ ap-volunteer-form-volunteer-in-brazil-with-volunteer-residency
-│  ├─ ap-volunteer-list-quick-facts
-│  ├─ ap-volunteer-list-common-challenges-applicants-face
-│  ├─ ap-volunteer-list-how-we-solve-these-challenges
-│  ├─ ap-volunteer-section-residency-overview
-│  ├─ ap-volunteer-form-who-is-this-residency-for
-│  ├─ ap-volunteer-list-required-documents
-│  ├─ ap-volunteer-list-application-process
-│  ├─ ap-volunteer-section-timelines-deadlines
-│  ├─ ap-volunteer-section-fees-costs
-│  ├─ ap-volunteer-list-risks-common-mistakes
-│  ├─ ap-volunteer-section-diy-vs-professional-assistance
-│  ├─ ap-volunteer-section-amap-specific-context
-│  ├─ ap-volunteer-section-what-our-clients-say
-│  ├─ ap-volunteer-section-frequently-asked-questions
-│  ├─ ap-volunteer-section-international-support
-│  ├─ application-form
-│  ├─ ap-volunteer-list-our-credentials
-│  ├─ ap-volunteer-list-related-services
-│  ├─ ap-volunteer-section-youre-in-good-hands
-│  ├─ ap-volunteer-section-21
-
-├─ skilled-worker.html
-│  ├─ ap-skilledworker-form-skilled-worker-residency-in-brazil-for-professionals
-│  ├─ ap-skilledworker-list-quick-facts
-│  ├─ ap-skilledworker-list-common-challenges-applicants-face
-│  ├─ ap-skilledworker-list-how-we-solve-these-challenges
-│  ├─ ap-skilledworker-section-residency-overview
-│  ├─ ap-skilledworker-form-who-is-this-residency-for
-│  ├─ ap-skilledworker-list-required-documents
-│  ├─ ap-skilledworker-list-application-process
-│  ├─ ap-skilledworker-section-timelines-deadlines
-│  ├─ ap-skilledworker-section-fees-costs
-│  ├─ ap-skilledworker-list-risks-common-mistakes
-│  ├─ ap-skilledworker-section-diy-vs-professional-assistance
-│  ├─ ap-skilledworker-section-amap-specific-context
-│  ├─ ap-skilledworker-section-what-our-clients-say
-│  ├─ ap-skilledworker-section-frequently-asked-questions
-│  ├─ ap-skilledworker-section-international-support
-│  ├─ application-form
-│  ├─ ap-skilledworker-list-our-credentials
-│  ├─ ap-skilledworker-list-related-services
-│  ├─ ap-skilledworker-section-youre-in-good-hands
-│  ├─ ap-skilledworker-section-21
-
-├─ religious.html
-│  ├─ ap-religious-form-religious-residency-in-brazil-for-missions
-│  ├─ ap-religious-list-quick-facts
-│  ├─ ap-religious-list-common-challenges-applicants-face
-│  ├─ ap-religious-list-how-we-solve-these-challenges
-│  ├─ ap-religious-section-residency-overview
-│  ├─ ap-religious-form-who-is-this-residency-for
-│  ├─ ap-religious-list-required-documents
-│  ├─ ap-religious-list-application-process
-│  ├─ ap-religious-section-timelines-deadlines
-│  ├─ ap-religious-section-fees-costs
-│  ├─ ap-religious-list-risks-common-mistakes
-│  ├─ ap-religious-section-diy-vs-professional-assistance
-│  ├─ ap-religious-section-amap-specific-context
-│  ├─ ap-religious-section-what-our-clients-say
-│  ├─ ap-religious-section-frequently-asked-questions
-│  ├─ ap-religious-section-international-support
-│  ├─ application-form
-│  ├─ ap-religious-list-our-credentials
-│  ├─ ap-religious-list-related-services
-│  ├─ ap-religious-section-youre-in-good-hands
-│  ├─ ap-religious-section-21
-
-├─ investor.html
-│  ├─ ap-investor-form-gain-residency-in-brazil-through-investment
-│  ├─ ap-investor-list-quick-facts
-│  ├─ ap-investor-list-common-challenges-applicants-face
-│  ├─ ap-investor-list-how-we-solve-these-challenges
-│  ├─ ap-investor-section-residency-overview
-│  ├─ ap-investor-form-who-is-this-residency-for
-│  ├─ ap-investor-list-required-documents
-│  ├─ ap-investor-list-application-process
-│  ├─ ap-investor-section-timelines-deadlines
-│  ├─ ap-investor-section-fees-costs
-│  ├─ ap-investor-list-risks-common-mistakes
-│  ├─ ap-investor-section-diy-vs-professional-assistance
-│  ├─ ap-investor-section-amap-specific-context
-│  ├─ ap-investor-section-what-our-clients-say
-│  ├─ ap-investor-section-frequently-asked-questions
-│  ├─ ap-investor-section-international-support
-│  ├─ application-form
-│  ├─ ap-investor-list-our-credentials
-│  ├─ ap-investor-list-related-services
-│  ├─ ap-investor-section-youre-in-good-hands
-│  ├─ ap-investor-section-21
-
-├─ health-treatment.html
-│  ├─ ap-healthtreatment-form-extend-your-stay-for-health-treatment-in-brazil
-│  ├─ ap-healthtreatment-list-quick-facts
-│  ├─ ap-healthtreatment-list-common-challenges-applicants-face
-│  ├─ ap-healthtreatment-list-how-we-solve-these-challenges
-│  ├─ ap-healthtreatment-section-residency-overview
-│  ├─ ap-healthtreatment-form-who-is-this-residency-for
-│  ├─ ap-healthtreatment-list-required-documents
-│  ├─ ap-healthtreatment-list-application-process
-│  ├─ ap-healthtreatment-section-timelines-deadlines
-│  ├─ ap-healthtreatment-section-fees-costs
-│  ├─ ap-healthtreatment-list-risks-common-mistakes
-│  ├─ ap-healthtreatment-section-diy-vs-professional-assistance
-│  ├─ ap-healthtreatment-section-amap-specific-context
-│  ├─ ap-healthtreatment-section-what-our-clients-say
-│  ├─ ap-healthtreatment-section-frequently-asked-questions
-│  ├─ ap-healthtreatment-section-international-support
-│  ├─ application-form
-│  ├─ ap-healthtreatment-list-our-credentials
-│  ├─ ap-healthtreatment-list-related-services
-│  ├─ ap-healthtreatment-section-youre-in-good-hands
-│  ├─ ap-healthtreatment-section-21
-
-├─ cplp.html
-│  ├─ ap-cplp-form-residency-for-cplp-citizens-in-brazil
-│  ├─ ap-cplp-list-quick-facts
-│  ├─ ap-cplp-list-common-challenges-applicants-face
-│  ├─ ap-cplp-list-how-we-solve-these-challenges
-│  ├─ ap-cplp-section-residency-overview
-│  ├─ ap-cplp-form-who-is-this-residency-for
-│  ├─ ap-cplp-list-required-documents
-│  ├─ ap-cplp-list-application-process
-│  ├─ ap-cplp-section-timelines-deadlines
-│  ├─ ap-cplp-section-fees-costs
-│  ├─ ap-cplp-list-risks-common-mistakes
-│  ├─ ap-cplp-section-diy-vs-professional-assistance
-│  ├─ ap-cplp-section-amap-specific-context
-│  ├─ ap-cplp-section-what-our-clients-say
-│  ├─ ap-cplp-section-frequently-asked-questions
-│  ├─ ap-cplp-section-international-support
-│  ├─ application-form
-│  ├─ ap-cplp-list-our-credentials
-│  ├─ ap-cplp-list-related-services
-│  ├─ ap-cplp-section-youre-in-good-hands
-│  ├─ ap-cplp-section-21
-
-├─ youth-exchange.html
-│  ├─ ap-youthexchange-form-youth-exchange-residency-in-brazil-for-programs
-│  ├─ ap-youthexchange-list-quick-facts
-│  ├─ ap-youthexchange-list-common-challenges-applicants-face
-│  ├─ ap-youthexchange-list-how-we-solve-these-challenges
-│  ├─ ap-youthexchange-section-residency-overview
-│  ├─ ap-youthexchange-form-who-is-this-residency-for
-│  ├─ ap-youthexchange-list-required-documents
-│  ├─ ap-youthexchange-list-application-process
-│  ├─ ap-youthexchange-section-timelines-deadlines
-│  ├─ ap-youthexchange-section-fees-costs
-│  ├─ ap-youthexchange-list-risks-common-mistakes
-│  ├─ ap-youthexchange-section-diy-vs-professional-assistance
-│  ├─ ap-youthexchange-section-amap-specific-context
-│  ├─ ap-youthexchange-section-what-our-clients-say
-│  ├─ ap-youthexchange-section-frequently-asked-questions
-│  ├─ ap-youthexchange-section-international-support
-│  ├─ application-form
-│  ├─ ap-youthexchange-list-our-credentials
-│  ├─ ap-youthexchange-list-related-services
-│  ├─ ap-youthexchange-section-youre-in-good-hands
-│  ├─ ap-youthexchange-section-21
-
-├─ work.html
-│  ├─ ap-work-form-work-and-reside-in-brazil-with-work-residency
-│  ├─ ap-work-list-quick-facts
-│  ├─ ap-work-list-common-challenges-applicants-face
-│  ├─ ap-work-list-how-we-solve-these-challenges
-│  ├─ ap-work-section-residency-overview
-│  ├─ ap-work-form-who-is-this-residency-for
-│  ├─ ap-work-list-required-documents
-│  ├─ ap-work-list-application-process
-│  ├─ ap-work-section-timelines-deadlines
-│  ├─ ap-work-section-fees-costs
-│  ├─ ap-work-list-risks-common-mistakes
-│  ├─ ap-work-section-diy-vs-professional-assistance
-│  ├─ ap-work-section-amap-specific-context
-│  ├─ ap-work-section-what-our-clients-say
-│  ├─ ap-work-section-frequently-asked-questions
-│  ├─ ap-work-section-international-support
-│  ├─ application-form
-│  ├─ ap-work-list-our-credentials
-│  ├─ ap-work-list-related-services
-│  ├─ ap-work-section-youre-in-good-hands
-│  ├─ ap-work-section-21
-
-├─ startup.html
-│  ├─ ap-startup-form-launch-your-startup-in-brazil-with-the-startup-visa
-│  ├─ ap-startup-list-quick-facts
-│  ├─ ap-startup-list-common-challenges-applicants-face
-│  ├─ ap-startup-list-how-we-solve-these-challenges
-│  ├─ ap-startup-section-visa-overview
-│  ├─ ap-startup-form-who-is-this-visa-for
-│  ├─ ap-startup-list-required-documents
-│  ├─ ap-startup-list-application-process
-│  ├─ ap-startup-section-timelines-deadlines
-│  ├─ ap-startup-section-fees-costs
-│  ├─ ap-startup-list-risks-common-mistakes
-│  ├─ ap-startup-section-diy-vs-professional-assistance
-│  ├─ ap-startup-section-amap-specific-context
-│  ├─ ap-startup-section-what-our-clients-say
-│  ├─ ap-startup-section-frequently-asked-questions
-│  ├─ ap-startup-section-international-support
-│  ├─ application-form
-│  ├─ ap-startup-list-our-credentials
-│  ├─ ap-startup-list-related-services
-│  ├─ ap-startup-section-youre-in-good-hands
-│  ├─ ap-startup-section-21
-
-├─ family.html
-│  ├─ ap-family-form-reunite-with-family-in-brazil-with-the-family-visa
-│  ├─ ap-family-list-quick-facts
-│  ├─ ap-family-list-common-challenges-applicants-face
-│  ├─ ap-family-list-how-we-solve-these-challenges
-│  ├─ ap-family-section-visa-overview
-│  ├─ ap-family-form-who-is-this-visa-for
-│  ├─ ap-family-list-required-documents
-│  ├─ ap-family-list-application-process
-│  ├─ ap-family-section-timelines-deadlines
-│  ├─ ap-family-section-fees-costs
-│  ├─ ap-family-list-risks-common-mistakes
-│  ├─ ap-family-section-diy-vs-professional-assistance
-│  ├─ ap-family-section-amap-specific-context
-│  ├─ ap-family-section-what-our-clients-say
-│  ├─ ap-family-section-frequently-asked-questions
-│  ├─ ap-family-section-international-support
-│  ├─ application-form
-│  ├─ ap-family-list-our-credentials
-│  ├─ ap-family-list-related-services
-│  ├─ ap-family-section-youre-in-good-hands
-│  ├─ ap-family-section-21
-
-├─ sports.html
-│  ├─ ap-sports-form-compete-in-brazil-with-the-sports-visa
-│  ├─ ap-sports-list-quick-facts
-│  ├─ ap-sports-list-common-challenges-applicants-face
-│  ├─ ap-sports-list-how-we-solve-these-challenges
-│  ├─ ap-sports-section-visa-overview
-│  ├─ ap-sports-form-who-is-this-visa-for
-│  ├─ ap-sports-list-required-documents
-│  ├─ ap-sports-list-application-process
-│  ├─ ap-sports-section-timelines-deadlines
-│  ├─ ap-sports-section-fees-costs
-│  ├─ ap-sports-list-risks-common-mistakes
-│  ├─ ap-sports-section-diy-vs-professional-assistance
-│  ├─ ap-sports-section-amap-specific-context
-│  ├─ ap-sports-section-what-our-clients-say
-│  ├─ ap-sports-section-frequently-asked-questions
-│  ├─ ap-sports-section-international-support
-│  ├─ application-form
-│  ├─ ap-sports-list-our-credentials
-│  ├─ ap-sports-list-related-services
-│  ├─ ap-sports-section-youre-in-good-hands
-│  ├─ ap-sports-section-21
-
-├─ medical.html
-│  ├─ ap-medical-form-receive-medical-treatment-in-brazil-with-the-medical-visa
-│  ├─ ap-medical-list-quick-facts
-│  ├─ ap-medical-list-common-challenges-applicants-face
-│  ├─ ap-medical-list-how-we-solve-these-challenges
-│  ├─ ap-medical-section-visa-overview
-│  ├─ ap-medical-form-who-is-this-visa-for
-│  ├─ ap-medical-list-required-documents
-│  ├─ ap-medical-list-application-process
-│  ├─ ap-medical-section-timelines-deadlines
-│  ├─ ap-medical-section-fees-costs
-│  ├─ ap-medical-list-risks-common-mistakes
-│  ├─ ap-medical-section-diy-vs-professional-assistance
-│  ├─ ap-medical-section-amap-specific-context
-│  ├─ ap-medical-section-what-our-clients-say
-│  ├─ ap-medical-section-frequently-asked-questions
-│  ├─ ap-medical-section-international-support
-│  ├─ application-form
-│  ├─ ap-medical-list-our-credentials
-│  ├─ ap-medical-list-related-services
-│  ├─ ap-medical-section-youre-in-good-hands
-│  ├─ ap-medical-section-21
-
-├─ tourist.html
-│  ├─ ap-tourist-form-visit-brazil-as-a-tourist-with-the-tourist-visa
-│  ├─ ap-tourist-list-quick-facts
-│  ├─ ap-tourist-list-common-challenges-applicants-face
-│  ├─ ap-tourist-list-how-we-solve-these-challenges
-│  ├─ ap-tourist-section-visa-overview
-│  ├─ ap-tourist-form-who-is-this-visa-for
-│  ├─ ap-tourist-list-required-documents
-│  ├─ ap-tourist-list-application-process
-│  ├─ ap-tourist-section-timelines-deadlines
-│  ├─ ap-tourist-section-fees-costs
-│  ├─ ap-tourist-list-risks-common-mistakes
-│  ├─ ap-tourist-section-diy-vs-professional-assistance
-│  ├─ ap-tourist-section-amap-specific-context
-│  ├─ ap-tourist-section-what-our-clients-say
-│  ├─ ap-tourist-section-frequently-asked-questions
-│  ├─ ap-tourist-section-international-support
-│  ├─ application-form
-│  ├─ ap-tourist-list-our-credentials
-│  ├─ ap-tourist-list-related-services
-│  ├─ ap-tourist-section-youre-in-good-hands
-│  ├─ ap-tourist-section-21
-
-├─ transit.html
-│  ├─ ap-transit-form-transit-through-brazil-with-the-transit-visa
-│  ├─ ap-transit-list-quick-facts
-│  ├─ ap-transit-list-common-challenges-applicants-face
-│  ├─ ap-transit-list-how-we-solve-these-challenges
-│  ├─ ap-transit-section-visa-overview
-│  ├─ ap-transit-form-who-is-this-visa-for
-│  ├─ ap-transit-list-required-documents
-│  ├─ ap-transit-list-application-process
-│  ├─ ap-transit-section-timelines-deadlines
-│  ├─ ap-transit-section-fees-costs
-│  ├─ ap-transit-list-risks-common-mistakes
-│  ├─ ap-transit-section-diy-vs-professional-assistance
-│  ├─ ap-transit-section-amap-specific-context
-│  ├─ ap-transit-section-what-our-clients-say
-│  ├─ ap-transit-section-frequently-asked-questions
-│  ├─ ap-transit-section-international-support
-│  ├─ application-form
-│  ├─ ap-transit-list-our-credentials
-│  ├─ ap-transit-list-related-services
-│  ├─ ap-transit-section-youre-in-good-hands
-│  ├─ ap-transit-section-21
-
-├─ student.html
-│  ├─ ap-student-form-study-in-brazil-with-the-student-visa
-│  ├─ ap-student-list-quick-facts
-│  ├─ ap-student-list-common-challenges-applicants-face
-│  ├─ ap-student-list-how-we-solve-these-challenges
-│  ├─ ap-student-section-visa-overview
-│  ├─ ap-student-form-who-is-this-visa-for
-│  ├─ ap-student-list-required-documents
-│  ├─ ap-student-list-application-process
-│  ├─ ap-student-section-timelines-deadlines
-│  ├─ ap-student-section-fees-costs
-│  ├─ ap-student-list-risks-common-mistakes
-│  ├─ ap-student-section-diy-vs-professional-assistance
-│  ├─ ap-student-section-amap-specific-context
-│  ├─ ap-student-section-what-our-clients-say
-│  ├─ ap-student-section-frequently-asked-questions
-│  ├─ ap-student-section-international-support
-│  ├─ application-form
-│  ├─ ap-student-list-our-credentials
-│  ├─ ap-student-list-related-services
-│  ├─ ap-student-section-youre-in-good-hands
-│  ├─ ap-student-section-21
-
-├─ business.html
-│  ├─ ap-business-form-conduct-business-in-brazil-with-the-business-visa
-│  ├─ ap-business-list-quick-facts
-│  ├─ ap-business-list-common-challenges-applicants-face
-│  ├─ ap-business-list-how-we-solve-these-challenges
-│  ├─ ap-business-section-visa-overview
-│  ├─ ap-business-form-who-is-this-visa-for
-│  ├─ ap-business-list-required-documents
-│  ├─ ap-business-list-application-process
-│  ├─ ap-business-section-timelines-deadlines
-│  ├─ ap-business-section-fees-costs
-│  ├─ ap-business-list-risks-common-mistakes
-│  ├─ ap-business-section-diy-vs-professional-assistance
-│  ├─ ap-business-section-amap-specific-context
-│  ├─ ap-business-section-what-our-clients-say
-│  ├─ ap-business-section-frequently-asked-questions
-│  ├─ ap-business-section-international-support
-│  ├─ application-form
-│  ├─ ap-business-list-our-credentials
-│  ├─ ap-business-list-related-services
-│  ├─ ap-business-section-youre-in-good-hands
-│  ├─ ap-business-section-21
-
-├─ research.html
-│  ├─ ap-research-form-conduct-research-in-brazil-with-the-research-visa
-│  ├─ ap-research-list-quick-facts
-│  ├─ ap-research-list-common-challenges-applicants-face
-│  ├─ ap-research-list-how-we-solve-these-challenges
-│  ├─ ap-research-section-visa-overview
-│  ├─ ap-research-form-who-is-this-visa-for
-│  ├─ ap-research-list-required-documents
-│  ├─ ap-research-list-application-process
-│  ├─ ap-research-section-timelines-deadlines
-│  ├─ ap-research-section-fees-costs
-│  ├─ ap-research-list-risks-common-mistakes
-│  ├─ ap-research-section-diy-vs-professional-assistance
-│  ├─ ap-research-section-amap-specific-context
-│  ├─ ap-research-section-what-our-clients-say
-│  ├─ ap-research-section-frequently-asked-questions
-│  ├─ ap-research-section-international-support
-│  ├─ application-form
-│  ├─ ap-research-list-our-credentials
-│  ├─ ap-research-list-related-services
-│  ├─ ap-research-section-youre-in-good-hands
-│  ├─ ap-research-section-21
-
-├─ diplomatic.html
-│  ├─ ap-diplomatic-form-official-diplomatic-visa-for-brazil-missions
-│  ├─ ap-diplomatic-list-quick-facts
-│  ├─ ap-diplomatic-list-common-challenges-applicants-face
-│  ├─ ap-diplomatic-list-how-we-solve-these-challenges
-│  ├─ ap-diplomatic-section-visa-overview
-│  ├─ ap-diplomatic-form-who-is-this-visa-for
-│  ├─ ap-diplomatic-list-required-documents
-│  ├─ ap-diplomatic-list-application-process
-│  ├─ ap-diplomatic-section-timelines-deadlines
-│  ├─ ap-diplomatic-section-fees-costs
-│  ├─ ap-diplomatic-list-risks-common-mistakes
-│  ├─ ap-diplomatic-section-diy-vs-professional-assistance
-│  ├─ ap-diplomatic-section-amap-specific-context
-│  ├─ ap-diplomatic-section-what-our-clients-say
-│  ├─ ap-diplomatic-section-frequently-asked-questions
-│  ├─ ap-diplomatic-section-international-support
-│  ├─ application-form
-│  ├─ ap-diplomatic-list-our-credentials
-│  ├─ ap-diplomatic-list-related-services
-│  ├─ ap-diplomatic-section-youre-in-good-hands
-│  ├─ ap-diplomatic-section-21
-
-├─ journalist.html
-│  ├─ ap-journalist-form-cover-news-in-brazil-with-the-journalist-visa
-│  ├─ ap-journalist-list-quick-facts
-│  ├─ ap-journalist-list-common-challenges-applicants-face
-│  ├─ ap-journalist-list-how-we-solve-these-challenges
-│  ├─ ap-journalist-section-visa-overview
-│  ├─ ap-journalist-form-who-is-this-visa-for
-│  ├─ ap-journalist-list-required-documents
-│  ├─ ap-journalist-list-application-process
-│  ├─ ap-journalist-section-timelines-deadlines
-│  ├─ ap-journalist-section-fees-costs
-│  ├─ ap-journalist-list-risks-common-mistakes
-│  ├─ ap-journalist-section-diy-vs-professional-assistance
-│  ├─ ap-journalist-section-amap-specific-context
-│  ├─ ap-journalist-section-what-our-clients-say
-│  ├─ ap-journalist-section-frequently-asked-questions
-│  ├─ ap-journalist-section-international-support
-│  ├─ application-form
-│  ├─ ap-journalist-list-our-credentials
-│  ├─ ap-journalist-list-related-services
-│  ├─ ap-journalist-section-youre-in-good-hands
-│  ├─ ap-journalist-section-21
-
-├─ fines.html
-│  ├─ ap-fines-form-resolve-immigration-fines-in-brazil
-│  ├─ ap-fines-list-quick-facts
-│  ├─ ap-fines-list-common-challenges-applicants-face
-│  ├─ ap-fines-list-how-we-solve-these-challenges
-│  ├─ ap-fines-section-service-overview
-│  ├─ ap-fines-form-who-is-this-service-for
-│  ├─ ap-fines-list-required-documents
-│  ├─ ap-fines-list-process
-│  ├─ ap-fines-section-timelines-deadlines
-│  ├─ ap-fines-section-fees-costs
-│  ├─ ap-fines-list-risks-common-mistakes
-│  ├─ ap-fines-section-diy-vs-professional-assistance
-│  ├─ ap-fines-section-amap-specific-context
-│  ├─ ap-fines-section-what-our-clients-say
-│  ├─ ap-fines-section-frequently-asked-questions
-│  ├─ ap-fines-section-international-support
-│  ├─ application-form
-│  ├─ ap-fines-list-our-credentials
-│  ├─ ap-fines-list-related-services
-│  ├─ ap-fines-section-youre-in-good-hands
-│  ├─ ap-fines-section-21
-
-├─ deportation.html
-│  ├─ ap-deportation-form-deportation-assistance-in-brazil
-│  ├─ ap-deportation-list-quick-facts
-│  ├─ ap-deportation-list-common-challenges-applicants-face
-│  ├─ ap-deportation-list-how-we-solve-these-challenges
-│  ├─ ap-deportation-section-service-overview
-│  ├─ ap-deportation-form-who-is-this-service-for
-│  ├─ ap-deportation-list-required-documents
-│  ├─ ap-deportation-list-process
-│  ├─ ap-deportation-section-timelines-deadlines
-│  ├─ ap-deportation-section-fees-costs
-│  ├─ ap-deportation-list-risks-common-mistakes
-│  ├─ ap-deportation-section-diy-vs-professional-assistance
-│  ├─ ap-deportation-section-amap-specific-context
-│  ├─ ap-deportation-section-what-our-clients-say
-│  ├─ ap-deportation-section-frequently-asked-questions
-│  ├─ ap-deportation-section-international-support
-│  ├─ application-form
-│  ├─ ap-deportation-list-our-credentials
-│  ├─ ap-deportation-list-related-services
-│  ├─ ap-deportation-section-youre-in-good-hands
-│  ├─ ap-deportation-section-21
-
-├─ translation.html
-│  ├─ ap-translation-form-sworn-document-translation-services-in-brazil
-│  ├─ ap-translation-list-quick-facts
-│  ├─ ap-translation-list-common-challenges-applicants-face
-│  ├─ ap-translation-list-how-we-solve-these-challenges
-│  ├─ ap-translation-section-service-overview
-│  ├─ ap-translation-form-who-is-this-service-for
-│  ├─ ap-translation-list-required-documents
-│  ├─ ap-translation-list-process
-│  ├─ ap-translation-section-timelines-deadlines
-│  ├─ ap-translation-section-fees-costs
-│  ├─ ap-translation-list-risks-common-mistakes
-│  ├─ ap-translation-section-diy-vs-professional-assistance
-│  ├─ ap-translation-section-amap-specific-context
-│  ├─ ap-translation-section-what-our-clients-say
-│  ├─ ap-translation-section-frequently-asked-questions
-│  ├─ ap-translation-section-international-support
-│  ├─ application-form
-│  ├─ ap-translation-list-our-credentials
-│  ├─ ap-translation-list-related-services
-│  ├─ ap-translation-section-youre-in-good-hands
-│  ├─ ap-translation-section-21
-
-├─ expulsion.html
-│  ├─ ap-expulsion-form-expulsion-assistance-in-brazil
-│  ├─ ap-expulsion-list-quick-facts
-│  ├─ ap-expulsion-list-common-challenges-applicants-face
-│  ├─ ap-expulsion-list-how-we-solve-these-challenges
-│  ├─ ap-expulsion-section-service-overview
-│  ├─ ap-expulsion-form-who-is-this-service-for
-│  ├─ ap-expulsion-list-required-documents
-│  ├─ ap-expulsion-list-process
-│  ├─ ap-expulsion-section-timelines-deadlines
-│  ├─ ap-expulsion-section-fees-costs
-│  ├─ ap-expulsion-list-risks-common-mistakes
-│  ├─ ap-expulsion-section-diy-vs-professional-assistance
-│  ├─ ap-expulsion-section-amap-specific-context
-│  ├─ ap-expulsion-section-what-our-clients-say
-│  ├─ ap-expulsion-section-frequently-asked-questions
-│  ├─ ap-expulsion-section-international-support
-│  ├─ application-form
-│  ├─ ap-expulsion-list-our-credentials
-│  ├─ ap-expulsion-list-related-services
-│  ├─ ap-expulsion-section-youre-in-good-hands
-│  ├─ ap-expulsion-section-21
-
-├─ appeals.html
-│  ├─ ap-appeals-form-appeal-immigration-denials-in-brazil
-│  ├─ ap-appeals-list-quick-facts
-│  ├─ ap-appeals-list-common-challenges-applicants-face
-│  ├─ ap-appeals-list-how-we-solve-these-challenges
-│  ├─ ap-appeals-section-service-overview
-│  ├─ ap-appeals-form-who-is-this-service-for
-│  ├─ ap-appeals-list-required-documents
-│  ├─ ap-appeals-list-appeal-process
-│  ├─ ap-appeals-section-timelines-deadlines
-│  ├─ ap-appeals-section-fees-costs
-│  ├─ ap-appeals-list-risks-common-mistakes
-│  ├─ ap-appeals-section-diy-vs-professional-assistance
-│  ├─ ap-appeals-section-amap-specific-context
-│  ├─ ap-appeals-section-what-our-clients-say
-│  ├─ ap-appeals-section-frequently-asked-questions
-│  ├─ ap-appeals-section-international-support
-│  ├─ application-form
-│  ├─ ap-appeals-list-our-credentials
-│  ├─ ap-appeals-list-related-services
-│  ├─ ap-appeals-section-youre-in-good-hands
-│  ├─ ap-appeals-section-21
-
-├─ consular.html
-│  ├─ ap-consular-form-consular-services-in-brazil-for-citizens
-│  ├─ ap-consular-list-quick-facts
-│  ├─ ap-consular-list-common-challenges-applicants-face
-│  ├─ ap-consular-list-how-we-solve-these-challenges
-│  ├─ ap-consular-section-service-overview
-│  ├─ ap-consular-form-who-is-this-service-for
-│  ├─ ap-consular-list-required-documents
-│  ├─ ap-consular-list-process
-│  ├─ ap-consular-section-timelines-deadlines
-│  ├─ ap-consular-section-fees-costs
-│  ├─ ap-consular-list-risks-common-mistakes
-│  ├─ ap-consular-section-diy-vs-professional-assistance
-│  ├─ ap-consular-section-amap-specific-context
-│  ├─ ap-consular-section-what-our-clients-say
-│  ├─ ap-consular-section-frequently-asked-questions
-│  ├─ ap-consular-section-international-support
-│  ├─ application-form
-│  ├─ ap-consular-list-our-credentials
-│  ├─ ap-consular-list-related-services
-│  ├─ ap-consular-section-youre-in-good-hands
-│  ├─ ap-consular-section-21
-
-├─ criminal-records.html
-│  ├─ ap-criminalrecords-form-obtain-criminal-records-certificate-in-brazil
-│  ├─ ap-criminalrecords-list-quick-facts
-│  ├─ ap-criminalrecords-list-common-challenges-applicants-face
-│  ├─ ap-criminalrecords-list-how-we-solve-these-challenges
-│  ├─ ap-criminalrecords-section-service-overview
-│  ├─ ap-criminalrecords-form-who-is-this-service-for
-│  ├─ ap-criminalrecords-list-required-documents
-│  ├─ ap-criminalrecords-list-process
-│  ├─ ap-criminalrecords-section-timelines-deadlines
-│  ├─ ap-criminalrecords-section-fees-costs
-│  ├─ ap-criminalrecords-list-risks-common-mistakes
-│  ├─ ap-criminalrecords-section-diy-vs-professional-assistance
-│  ├─ ap-criminalrecords-section-amap-specific-context
-│  ├─ ap-criminalrecords-section-what-our-clients-say
-│  ├─ ap-criminalrecords-section-frequently-asked-questions
-│  ├─ ap-criminalrecords-section-international-support
-│  ├─ application-form
-│  ├─ ap-criminalrecords-list-our-credentials
-│  ├─ ap-criminalrecords-list-related-services
-│  ├─ ap-criminalrecords-section-youre-in-good-hands
-│  ├─ ap-criminalrecords-section-21
-
-├─ extradition.html
-│  ├─ ap-extradition-form-extradition-assistance-in-brazil
-│  ├─ ap-extradition-list-quick-facts
-│  ├─ ap-extradition-list-common-challenges-applicants-face
-│  ├─ ap-extradition-list-how-we-solve-these-challenges
-│  ├─ ap-extradition-section-service-overview
-│  ├─ ap-extradition-form-who-is-this-service-for
-│  ├─ ap-extradition-list-required-documents
-│  ├─ ap-extradition-list-process
-│  ├─ ap-extradition-section-timelines-deadlines
-│  ├─ ap-extradition-section-fees-costs
-│  ├─ ap-extradition-list-risks-common-mistakes
-│  ├─ ap-extradition-section-diy-vs-professional-assistance
-│  ├─ ap-extradition-section-amap-specific-context
-│  ├─ ap-extradition-section-what-our-clients-say
-│  ├─ ap-extradition-section-frequently-asked-questions
-│  ├─ ap-extradition-section-international-support
-│  ├─ application-form
-│  ├─ ap-extradition-list-our-credentials
-│  ├─ ap-extradition-list-related-services
-│  ├─ ap-extradition-section-youre-in-good-hands
-│  ├─ ap-extradition-section-21
-
-├─ north.html
-│  ├─ ap-north-form-discover-the-north-amazon-and-beyond
-│  ├─ ap-north-list-quick-facts
-│  ├─ ap-north-list-common-challenges-applicants-face
-│  ├─ ap-north-list-how-we-solve-these-challenges
-│  ├─ ap-north-section-trip-overview
-│  ├─ ap-north-form-who-is-this-trip-for
-│  ├─ ap-north-list-required-documents
-│  ├─ ap-north-list-booking-process
-│  ├─ ap-north-section-timelines-deadlines
-│  ├─ ap-north-section-fees-costs
-│  ├─ ap-north-list-risks-common-mistakes
-│  ├─ ap-north-section-diy-vs-professional-assistance
-│  ├─ ap-north-section-amap-specific-context
-│  ├─ ap-north-section-what-our-clients-say
-│  ├─ ap-north-section-frequently-asked-questions
-│  ├─ ap-north-section-international-support
-│  ├─ application-form
-│  ├─ ap-north-list-our-credentials
-│  ├─ ap-north-list-related-services
-│  ├─ ap-north-section-youre-in-good-hands
-│  ├─ ap-north-section-21
+├─ mobile-nav.html
+│  ├─ mobile-nav
 
 ├─ central-west.html
-│  ├─ ap-centralwest-form-wild-centralwest-pantanal-and-cerrado
-│  ├─ ap-centralwest-list-quick-facts
-│  ├─ ap-centralwest-list-common-challenges-applicants-face
-│  ├─ ap-centralwest-list-how-we-solve-these-challenges
-│  ├─ ap-centralwest-section-trip-overview
-│  ├─ ap-centralwest-form-who-is-this-trip-for
-│  ├─ ap-centralwest-list-required-documents
-│  ├─ ap-centralwest-list-booking-process
-│  ├─ ap-centralwest-section-timelines-deadlines
-│  ├─ ap-centralwest-section-fees-costs
-│  ├─ ap-centralwest-list-risks-common-mistakes
-│  ├─ ap-centralwest-section-diy-vs-professional-assistance
-│  ├─ ap-centralwest-section-amap-specific-context
-│  ├─ ap-centralwest-section-what-our-clients-say
-│  ├─ ap-centralwest-section-frequently-asked-questions
-│  ├─ ap-centralwest-section-international-support
-│  ├─ application-form
-│  ├─ ap-centralwest-list-our-credentials
-│  ├─ ap-centralwest-list-related-services
-│  ├─ ap-centralwest-section-youre-in-good-hands
-│  ├─ ap-centralwest-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
-├─ southeast.html
-│  ├─ ap-southeast-form-dynamic-southeast-cities-and-history
-│  ├─ ap-southeast-list-quick-facts
-│  ├─ ap-southeast-list-common-challenges-applicants-face
-│  ├─ ap-southeast-list-how-we-solve-these-challenges
-│  ├─ ap-southeast-section-trip-overview
-│  ├─ ap-southeast-form-who-is-this-trip-for
-│  ├─ ap-southeast-list-required-documents
-│  ├─ ap-southeast-list-booking-process
-│  ├─ ap-southeast-section-timelines-deadlines
-│  ├─ ap-southeast-section-fees-costs
-│  ├─ ap-southeast-list-risks-common-mistakes
-│  ├─ ap-southeast-section-diy-vs-professional-assistance
-│  ├─ ap-southeast-section-amap-specific-context
-│  ├─ ap-southeast-section-what-our-clients-say
-│  ├─ ap-southeast-section-frequently-asked-questions
-│  ├─ ap-southeast-section-international-support
-│  ├─ application-form
-│  ├─ ap-southeast-list-our-credentials
-│  ├─ ap-southeast-list-related-services
-│  ├─ ap-southeast-section-youre-in-good-hands
-│  ├─ ap-southeast-section-21
+├─ north.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ northeast.html
-│  ├─ ap-northeast-form-vibrant-northeast-beaches-and-culture
-│  ├─ ap-northeast-list-quick-facts
-│  ├─ ap-northeast-list-common-challenges-applicants-face
-│  ├─ ap-northeast-list-how-we-solve-these-challenges
-│  ├─ ap-northeast-section-trip-overview
-│  ├─ ap-northeast-form-who-is-this-trip-for
-│  ├─ ap-northeast-list-required-documents
-│  ├─ ap-northeast-list-booking-process
-│  ├─ ap-northeast-section-timelines-deadlines
-│  ├─ ap-northeast-section-fees-costs
-│  ├─ ap-northeast-list-risks-common-mistakes
-│  ├─ ap-northeast-section-diy-vs-professional-assistance
-│  ├─ ap-northeast-section-amap-specific-context
-│  ├─ ap-northeast-section-what-our-clients-say
-│  ├─ ap-northeast-section-frequently-asked-questions
-│  ├─ ap-northeast-section-international-support
-│  ├─ application-form
-│  ├─ ap-northeast-list-our-credentials
-│  ├─ ap-northeast-list-related-services
-│  ├─ ap-northeast-section-youre-in-good-hands
-│  ├─ ap-northeast-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ south.html
-│  ├─ ap-south-form-charming-south-wine-and-gauchos
-│  ├─ ap-south-list-quick-facts
-│  ├─ ap-south-list-common-challenges-applicants-face
-│  ├─ ap-south-list-how-we-solve-these-challenges
-│  ├─ ap-south-section-trip-overview
-│  ├─ ap-south-form-who-is-this-trip-for
-│  ├─ ap-south-list-required-documents
-│  ├─ ap-south-list-booking-process
-│  ├─ ap-south-section-timelines-deadlines
-│  ├─ ap-south-section-fees-costs
-│  ├─ ap-south-list-risks-common-mistakes
-│  ├─ ap-south-section-diy-vs-professional-assistance
-│  ├─ ap-south-section-amap-specific-context
-│  ├─ ap-south-section-what-our-clients-say
-│  ├─ ap-south-section-frequently-asked-questions
-│  ├─ ap-south-section-international-support
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ southeast.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ derivative.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ extraordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ ordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ provisional.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ reacquisition-citizenship.html
+│  ├─ hero-heading
 │  ├─ application-form
-│  ├─ ap-south-list-our-credentials
-│  ├─ ap-south-list-related-services
-│  ├─ ap-south-section-youre-in-good-hands
-│  ├─ ap-south-section-21
+
+├─ reacquisition.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ renouncing-citizenship.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ special.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ apostille.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ appeals.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ authentication.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ company-formation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ consular.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ consultation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cpf.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ criminal-records.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ deportation.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ expulsion.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ extradition.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ fines.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ power-of-attorney.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ rne.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ translation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cplp.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ crnm.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family-reunion.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ health-treatment.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investment.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investor.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ marriage.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ mercosul.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ permanent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ researcher.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ scientific-research.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ skilled-worker.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ startup.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ study.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ temporary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ youth-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ artist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ artistic.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ business.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ crew.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cultural.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ dependent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ diplomatic.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ investor.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ journalist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ medical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ missionary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ official.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ research.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ sports.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ startup.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ student.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ technical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ tourist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ transit.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
